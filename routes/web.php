@@ -19,3 +19,11 @@ Route::get('/', function () {
     return view('home', compact('title'));
 
 });
+
+Route::get('/first', function () {
+    return view('first',);
+});
+
+Route::get('/second', function () {
+    return view('second');
+});
